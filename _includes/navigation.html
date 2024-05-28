@@ -1,0 +1,19 @@
+<div id="uw-top-menus" class="uw-is-visible uw-horizontal" aria-hidden="false">
+	<div class="uw-main-nav">
+
+		<nav class="uw-nav-menu uw-nav-menu-reverse" aria-label="Main Menu">
+			<ul id="uw-main-nav" class="nav-links" style="max-width:80em;">
+				{% for item in site.data.navigation %}
+				{% if item.link == page.url or (item.link == "/blog/" and page.url == "/blog/index.html") %}
+					<li class="current-menu-item">
+						<a class="active-item" style="text-decoration: none;" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+				{% else %}
+					<li class="menu-item">
+						<a style="text-decoration: none;" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+					</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</div>

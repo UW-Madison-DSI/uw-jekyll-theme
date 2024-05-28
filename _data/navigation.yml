@@ -1,0 +1,20 @@
+- name: Home
+  link: /
+
+- name: Blog
+  link: /blog/
+
+- name: Publications
+  link: /publications/
+
+- name: Projects
+  link: /projects/
+
+- name: Repositories
+  link: /repositories/
+
+- name: CV
+  link: /cv/
+
+- name: Teaching
+  link: /teaching/
