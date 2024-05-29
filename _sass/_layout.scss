@@ -40,6 +40,16 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+.page-description {
+  margin: 2em 0;
+}
+
+.profile picture img {
+  box-shadow: none !important;
+  border: none;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25))
+}
+
 
 /******************************************************************************
  * Publications

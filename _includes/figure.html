@@ -14,7 +14,7 @@
     {% endif %}
 
     <!-- Fallback to the original file -->
-    <img 
+    <img
       src="{{ include.path | relative_url }}"
       {% if include.class %}class="{{ include.class }}"{% endif %}  
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
