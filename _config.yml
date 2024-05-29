@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bucky's Lab # the website title (if blank, full name will be used instead)
+title: Bucky's Lab  # the website title (if blank, full name will be used instead)
+tagline: Sample site has a tagline
 first_name: Bucky
 middle_name: 
 last_name: Badger

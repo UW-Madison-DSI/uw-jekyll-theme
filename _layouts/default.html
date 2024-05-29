@@ -15,6 +15,14 @@
     <!-- Header -->
     {%- include header.html %}
 
+    {% if page.hero -%}
+    <div class="uw-row-full">
+      <div class="uw-hero">
+        <img src="{{ site.baseurl }}/{{ page.hero }}" width="1550" height="370">
+      </div>
+    </div>
+    {% endif -%}
+
     <!-- Content -->
     <div class="container mt-5">
       {% if page.toc and page.toc.sidebar %}
