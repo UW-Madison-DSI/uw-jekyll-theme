@@ -18,12 +18,10 @@ pagination:
   {% assign blog_name_size = site.blog_name | size %}
   {% assign blog_description_size = site.blog_description | size %}
 
-  {% if blog_name_size > 0 or blog_description_size > 0 %}
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
+  <header class="entry-header">
+    <h1 class="page-title uw-mini-bar">{{ site.blog_name }}</h1>
+    <p class="post-description">{{ site.blog_description }}</p>
+  </header>
 
   {% if site.display_tags %}
   <div class="tag-list">
