@@ -5,7 +5,7 @@ layout: default
         <div class="post">
 
           <header class="entry-header">
-            <h1 class="page-title uw-text-center uw-mini-bar-center">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <h1 class="page-title uw-text-center uw-mini-bar-center">{{ page.title | capitalize }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
             <p class="page-description">{{ page.description }}</p>
           </header>
 
