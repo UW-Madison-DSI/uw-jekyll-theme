@@ -22,7 +22,7 @@ sh run.sh
 
 The application will be visible at the following url:
 ```
-http://127.0.0.1:4000/ospo/
+http://127.0.0.1:4000
 ```
 
 <!-- LICENSE -->
