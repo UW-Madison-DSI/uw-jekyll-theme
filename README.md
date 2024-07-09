@@ -9,6 +9,9 @@
 This is a website for the University of Wisconsin's Open Source Program Office:
 [http://ospo.wisc.edu](http://ospo.wisc.edu)
 
+<img src="images/screen-shots/home.png" align="center" style="border:2px solid grey">
+<div align="center">OSPO Web Site</div>
+
 ## Running
 
 Simply run the following command to start the Jekyll app:
