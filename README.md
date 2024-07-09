@@ -1,6 +1,6 @@
 <p align="center">
   <div align="center">
-    <img src="./images/uw-crest.svg" alt="Logo" width="150">
+    <img src="./images/logos/uw-crest.svg" alt="Logo" width="150">
   </div>
 </p>
 
