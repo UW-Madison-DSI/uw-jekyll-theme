@@ -4,7 +4,10 @@
 		<nav class="uw-nav-menu uw-nav-menu-reverse" aria-label="Main Menu">
 			<ul id="uw-main-nav" class="nav-links" style="max-width:80em;">
 				{% for item in site.data.navigation %}
-				{% if page.url == item.link or item.link != '/' and page.url contains item.link %}
+				{% assign url = page.url %}
+				{% assign link = item.link | replace: ".html", "" %}
+
+				{% if url == link or link != '/' and url contains link %}
 					<li class="current-menu-item">
 						<a class="active-item" style="text-decoration: none;" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
 				{% else %}

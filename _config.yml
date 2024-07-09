@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bucky's Lab  # the website title (if blank, full name will be used instead)
-tagline: Sample site has a tagline
-first_name: Bucky
+title: Open Source Program Office  # the website title (if blank, full name will be used instead)
+tagline: Open Sourcing the <a href="https://www.wisc.edu/wisconsin-idea" target="_blank">Wisconsin Idea</a>
+first_name: Open Source
 middle_name: 
-last_name: Badger
+last_name: Program Office
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A UW-themed jekyll template for academics with the features of [*folio](https://github.com/bogoli/-folio).
+  News and events related to the OSPO.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -20,7 +20,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://cranmer.github.io # the base hostname & protocol for your site
-baseurl: /uw-jekyll-theme # the subpath of your site, e.g. /blog/
+baseurl: /ospo  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -123,9 +123,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: cranmer lab # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: News # blog_name will be displayed in your blog page
+blog_nav_title: news # your blog must have a title for it to be displayed in the nav bar
+blog_description: The following are news and events related to the OSPO.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -267,7 +267,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

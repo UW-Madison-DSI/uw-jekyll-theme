@@ -13,3 +13,96 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+/******************************************************************************\
+|                                                                              |
+|                                   main.scss                                  |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
+\******************************************************************************/
+
+// add custom styles here
+
+.carousel-control-prev, 
+.carousel-control-next, {
+    width: unset;
+}
+
+.carousel-item .image {
+    width: 100% !important;
+    aspect-ratio: 1.5;
+    max-height: 450px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+
+label i {
+    margin-right: 5px;
+}
+
+.row div {
+    margin: 10px 0;
+}
+
+.row li img {
+    display: block;
+    width: 75%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.row .logo, 
+.row .screenshot {
+    display: block;
+    max-height: 200px;
+    margin: auto;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.15));
+}
+
+/*
+body {
+    margin: 0;
+}
+#ourMissionContainer {
+    margin-bottom: 50px;
+}
+*/
+
+/*
+#roleContainer {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+/*
+#ort {
+    width: 100%; 
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 10px 40px;
+}
+*/
+/*
+#role {
+    background-color: #f7f7f7;
+    padding: 10px 40px;
+}
+*/
+//

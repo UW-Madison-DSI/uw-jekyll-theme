@@ -1,20 +1,20 @@
 - name: Home
   link: /
 
-- name: Blog
-  link: /blog/
+- name: Team
+  link: /team.html
 
-- name: Publications
-  link: /publications/
+- name: Partners
+  link: /partners.html
+
+- name: Activities
+  link: /activities.html
 
 - name: Projects
-  link: /projects/
+  link: /projects.html
 
-- name: Repositories
-  link: /repositories/
+- name: News
+  link: /blog
 
-- name: CV
-  link: /cv/
-
-- name: Teaching
-  link: /teaching/
+- name: Contact
+  link: /contact.html
