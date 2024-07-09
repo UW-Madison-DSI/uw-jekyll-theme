@@ -27,8 +27,26 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
-.container {
-  max-width: $max-content-width;
+.container, .uw-header-container {
+  max-width: $max-content-width !important;
+  padding: 0 50px;
+
+  .carousel {
+    margin: 0 -50px;
+  }
+}
+
+// mobile / small styles
+//
+@media (max-width: 800px) {
+  .container, .uw-header-container {
+    max-width: $max-content-width !important;
+    padding: 0 20px;
+
+    .carousel {
+      margin: 0 -20px;
+    }
+  }
 }
 
 // Profile
