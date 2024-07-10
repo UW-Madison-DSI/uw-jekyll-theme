@@ -1,21 +1,24 @@
 left-column:
-  title: Partners
+  title: Community
   entries:
-    - text: Division of Student Life
-      url: https://students.wisc.edu/
-    - text: Office of the Chancellor
-      url: https://chancellor.wisc.edu/
+    - text: Data Science Institute
+      url: https://datascience.wisc.edu/institute/
+    - text: Data Science Hub
+      url: https://datascience.wisc.edu/hub/
+    - text: School of Computer, Data & Information Sciences
+      url: https://cdis.wisc.edu/
 
 center-column: 
   title: Quick links
   entries:
-    - text: Accessibility
-      url: http://www.wisc.edu/accessibility/
-    - text: Diversity
-      url: https://diversity.wisc.edu/
+    - text: Coding Meetup
+      url: https://datascience.wisc.edu/hub/#dropin
+    - text: Data Science Research Bazaar
+      url: https://datascience.wisc.edu/data-science-research-bazaar/
+    - text: Data Science @ UW Newsletter
+      url: https://datascience.wisc.edu/newsletter/
   
 contact-info: 
   email: "research@datascience.wisc.edu"
-  phone: 123
   twitter: datascience_uw
-
+  feedback: "akittinger@wisc.edu"
