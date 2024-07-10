@@ -37,15 +37,24 @@
             {%- endif -%}
             <li>
               <ul class="uw-social-icons">
+
+                {% if site.data.footer.contact-info.twitter -%}
                 <li id="uw-icon-twitter" class="uw-social-icon">
                   <a aria-label="twitter" href="https://twitter.com/{{ site.data.footer.contact-info.twitter }}"><svg aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-twitter"></use></svg></a>
                 </li>
+                {% endif %}
+
+                {% if site.data.footer.contact-info.instagram -%}
                 <li id="uw-icon-instagram" class="uw-social-icon">
-                  <a aria-label="instagram" href="https://www.instagram.com"><svg aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-instagram"></use></svg></a>
+                  <a aria-label="instagram" href="https://www.instagram.com/{{ site.data.footer.contact-info.instagram }}"><svg aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-instagram"></use></svg></a>
                 </li>
+                {% endif %}
+
+                {% if site.data.footer.contact-info.facebook -%}
                 <li id="uw-icon-facebook" class="uw-social-icon">
-                  <a aria-label="facebook" href="https://facebook.com/"><svg aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-facebook"></use></svg></a>
+                  <a aria-label="facebook" href="https://facebook.com//{{ site.data.footer.contact-info.facebook }}"><svg aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-facebook"></use></svg></a>
                 </li>
+                {% endif %}
               </ul>
             </li>
           </ul>
