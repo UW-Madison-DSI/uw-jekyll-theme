@@ -54,6 +54,12 @@ pagination:
 <div class="row">
           <div class="col-sm-9">
 {%- endif -%}
+
+        POST URL = {{ post.url }} <br />
+        SITE BASE URL = {{ site.baseurl }} <br />
+        POST REDIRECT = {{ post.redirect }} <br />
+        HREF = {{ post.url | prepend: site.baseurl }} <br />
+
         <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
