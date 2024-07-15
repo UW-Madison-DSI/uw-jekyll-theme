@@ -26,9 +26,6 @@ pagination:
   <div class="tag-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
-
-        {{ tag[0] }}
-
         <li>
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/category/' | relative_url }}">{{ tag }}</a>
         </li>
