@@ -32,7 +32,7 @@ layout: default
       &nbsp; &middot; &nbsp;
         {% for category in page.categories -%}
         <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+          <i class="fas fa-hashtag fa-sm"></i> {{ category }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
 

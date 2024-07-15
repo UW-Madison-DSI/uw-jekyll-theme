@@ -7,7 +7,7 @@ tagline: Open Sourcing the Wisconsin Idea
 first_name: Open Source
 middle_name: 
 last_name: Program Office
-email: you@example.com
+email: akittinger@wisc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   News and events related to the OSPO.
 footer_text: >
@@ -130,7 +130,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
