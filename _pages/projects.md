@@ -49,7 +49,7 @@ permalink: /projects
     <div class="mt-4 uw-content-box">
         <h2 class="uw-mini-bar-center text-center">Submit a Project</h2>
         <p>Do you have an open source project? Submit it to our index!</p>
-        <a href="submission.html" target="_blank" class="uw-button justify-content-center">
+        <a href="projects/submission.html" target="_blank" class="uw-button justify-content-center">
             Project Submission Form
         </a>
     </div>
