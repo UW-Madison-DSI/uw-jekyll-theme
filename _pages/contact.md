@@ -46,7 +46,7 @@ permalink: /contact
 	<div class="attachment form-group">
 		<label class="control-label"><i class="fa fa-file"></i>Attachment</label>
 		<div class="controls" style="display:flex">
-			<input type="file" id="file" class="form-control" style="padding:1px" />
+			<input type="file" id="file" class="form-control" />
 			<button class="remove btn btn-sm" style="margin-left:10px; display:none"><label>Clear</label></button>
 		</div>
 	</div>
