@@ -63,7 +63,7 @@ permalink: /contact
 <script type="text/javascript" src="library/jquery/jquery-3.6.0.js"></script>
 <script>
 	let server1 = 'http://localhost/contact-server/public/api';
-	let server = 'https://wwwtest.maps.datascience.wisc.edu/apis/contact-server/public/api';
+	let server = 'https://maps.datascience.wisc.edu/apis/contact-server/public/api';
 
 	//
 	// getting methods
