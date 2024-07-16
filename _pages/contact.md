@@ -46,8 +46,8 @@ permalink: /contact
 	<div class="attachment form-group">
 		<label class="control-label"><i class="fa fa-file"></i>Attachment</label>
 		<div class="controls" style="display:flex">
-			<input type="file" id="file" class="form-control" />
-			<button class="remove btn btn-sm" style="margin-left:10px; display:none"><i class="fa fa-xmark"></i></button>
+			<input type="file" id="file" class="form-control" style="padding:1px" />
+			<button class="remove btn btn-sm" style="margin-left:10px; display:none"><label>Clear</label></button>
 		</div>
 	</div>
 
@@ -60,6 +60,7 @@ permalink: /contact
 	</div>
 </div>
 
+<script type="text/javascript" src="library/jquery/jquery-3.6.0.js"></script>
 <script>
 	let server1 = 'http://localhost/contact-server/public/api';
 	let server = 'https://wwwtest.maps.datascience.wisc.edu/apis/contact-server/public/api';
