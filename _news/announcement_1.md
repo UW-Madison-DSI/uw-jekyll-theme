@@ -7,6 +7,4 @@ thumbnail: /images/posts/2024-07-03-ospo-survey/OSPO Survey Site Image.png
 link: /blog/2024/ospo-survey
 ---
 
-# The OSPO Survey Results Are In!
-
-View the results from our latest open source survey.
+The OSPO Survey Results Are In!
