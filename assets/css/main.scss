@@ -92,6 +92,33 @@ a.news-title {
     text-decoration: none !important;
 }
 
+.uw-footer {
+    background-color: #373737 !important;
+}
+
+#uw-footer-notices {
+    background: #282728;
+    // padding: .3rem 1rem .3rem 1rem;
+    padding: 20px;
+    text-align: center;
+    color: #adadad;
+    min-height: 0;
+    font-size: 0.9rem;
+
+    .container {
+         color: #adadad !important;
+    }
+
+    a {
+        color: #adadad !important;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 /*
 body {
     margin: 0;

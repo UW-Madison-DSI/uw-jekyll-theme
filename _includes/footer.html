@@ -60,11 +60,6 @@
           </ul>
         </div>
       </div>
-
-      <div class="uw-copyright">
-        <p class="uw-contact-item">Feedback, questions or accessibility issues: <a href="mailto:{{ site.data.footer.contact-info.feedback }}">{{ site.data.footer.contact-info.feedback }}</a></p>
-        <p>© 2024 Board of Regents of the <a href="http://www.wisconsin.edu">University of Wisconsin System</a></p>
-      </div>
     </footer>
     <div class="uw-overlay"></div>
     <svg aria-hidden="true" style="display: inline; height: 0; position: absolute;" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -143,11 +138,9 @@
 
     <!-- UW footer end-->
 
-<!--
-
-    <footer class="fixed-bottom">
+    <div id="uw-footer-notices">
       <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
@@ -167,8 +160,6 @@
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
       </div>
-    </footer>
-
-  -->
+    </div>
 
     {%- endif %}
