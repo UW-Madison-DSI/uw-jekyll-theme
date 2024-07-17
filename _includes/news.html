@@ -13,10 +13,19 @@
                 <tr>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
+                    {% if item.thumbnail -%}
+                    <a class="news-title" href="{{ item.link | relative_url }}">
+                      <div class="tile" style="background-image:url('{{ item.thumbnail | prepend: site.baseurl | prepend: site.url }}')"></div>
+                    </a>
+
+                    <a class="news-title" href="{{ item.link | relative_url }}">
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%}
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      {{ item.title }}
+                    {%- endif %}
+                    </a>
+                    
                     {%- endif %}
                   </td>
                 </tr>
