@@ -1150,6 +1150,8 @@ label i {
 
 a.news-title {
   text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .uw-footer {
@@ -1163,6 +1165,7 @@ a.news-title {
   color: #adadad;
   min-height: 0;
   font-size: 0.9rem;
+  outline: 1px solid #282728;
 }
 #uw-footer-notices .container {
   color: #adadad !important;
