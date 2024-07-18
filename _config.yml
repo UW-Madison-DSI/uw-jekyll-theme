@@ -11,7 +11,7 @@ email: akittinger@wisc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   News and events related to the OSPO.
 footer_text: >
-  © 2024 Board of Regents of the <a href="http://www.wisconsin.edu">University of Wisconsin System</a> |
+  © 2024 Board of Regents of the <a href="http://www.wisconsin.edu" target="_blank">University of Wisconsin System</a> |
   <a href="https://www.wisc.edu/privacy-notice/" target="_blank">Privacy notice</a> |
   Feedback, questions or accessibility issues: <a href="mailto:ospo@datascience.wisc.edu">ospo@datascience.wisc.edu</a>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
