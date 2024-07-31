@@ -1119,11 +1119,13 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 
 .uw-hero {
   width: auto;
-  height: 270px;
+  aspect-ratio: 1550/370;
   background-size: cover;
   position: relative;
   margin: 0 -50px;
   padding: 50px;
+  max-width: calc(100% + 100px);
+  min-height: 200px;
 }
 .uw-hero .uw-hero-inset-wrapper {
   width: 100%;
