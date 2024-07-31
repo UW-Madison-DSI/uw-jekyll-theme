@@ -1126,6 +1126,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   padding: 50px;
 }
 .uw-hero .uw-hero-inset-wrapper {
+  width: 100%;
   position: absolute;
   bottom: 0;
   margin: 0 -50px;
@@ -1135,6 +1136,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 .uw-hero .uw-hero-inset-wrapper .uw-hero-headline {
   font-size: 1.8rem;
+  line-height: 1em;
   color: white;
 }
 
