@@ -64,26 +64,33 @@ $max-content-width: {{ site.max_width }};
     position: relative;
     margin: 0 -50px;
     padding: 50px;
-    max-width: calc(100% + 100px);
     min-height: 200px;
 
     .uw-hero-inset-wrapper {
         width: 100%;
         position: absolute;
         bottom: 0;
-        margin: 0 -50px;
-        padding: 50px;
+        left: 0;
+        padding: 20px;
         padding-top: 100px;
         background: linear-gradient(to bottom, transparent 0%, black 100%);
+        color: white;
+
+        a, a:hover, a:focus {
+            color: white;
+        }
 
         .uw-hero-headline {
             font-size: 1.8rem;
             line-height: 1em;
             color: white;
+        }
 
-            a, a:hover, a:focus {
-                color: white;
-            }
+        .credit {
+            margin-top: 20px;
+            float: right;
+            color: white;
+            font-size: 0.75em;
         }
     }
 }

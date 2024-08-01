@@ -109,8 +109,9 @@ body.sticky-bottom-footer {
   max-width: 100% !important;
   padding: 0 50px;
 }
-.container .carousel, .uw-header-container .carousel {
+.container .carousel, .container .uw-hero, .uw-header-container .carousel, .uw-header-container .uw-hero {
   margin: 0 -50px;
+  max-width: calc(100% + 100px);
 }
 
 @media (max-width: 800px) {
@@ -118,8 +119,9 @@ body.sticky-bottom-footer {
     max-width: 100% !important;
     padding: 0 20px;
   }
-  .container .carousel, .uw-header-container .carousel {
+  .container .carousel, .container .uw-hero, .uw-header-container .carousel, .uw-header-container .uw-hero {
     margin: 0 -20px;
+    max-width: calc(100% + 40px);
   }
 }
 .profile img {
@@ -1124,25 +1126,31 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   position: relative;
   margin: 0 -50px;
   padding: 50px;
-  max-width: calc(100% + 100px);
   min-height: 200px;
 }
 .uw-hero .uw-hero-inset-wrapper {
   width: 100%;
   position: absolute;
   bottom: 0;
-  margin: 0 -50px;
-  padding: 50px;
+  left: 0;
+  padding: 20px;
   padding-top: 100px;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
+  color: white;
+}
+.uw-hero .uw-hero-inset-wrapper a, .uw-hero .uw-hero-inset-wrapper a:hover, .uw-hero .uw-hero-inset-wrapper a:focus {
+  color: white;
 }
 .uw-hero .uw-hero-inset-wrapper .uw-hero-headline {
   font-size: 1.8rem;
   line-height: 1em;
   color: white;
 }
-.uw-hero .uw-hero-inset-wrapper .uw-hero-headline a, .uw-hero .uw-hero-inset-wrapper .uw-hero-headline a:hover, .uw-hero .uw-hero-inset-wrapper .uw-hero-headline a:focus {
+.uw-hero .uw-hero-inset-wrapper .credit {
+  margin-top: 20px;
+  float: right;
   color: white;
+  font-size: 0.75em;
 }
 
 label i {
