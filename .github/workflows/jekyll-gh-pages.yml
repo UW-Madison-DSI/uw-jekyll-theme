@@ -29,6 +29,9 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
 
+      - name: Show site directory structure
+        run: tree _site/
+
       - name: Fix permissions if needed
         run: |
           chmod -c -R +rX "_site/" | while read line; do
