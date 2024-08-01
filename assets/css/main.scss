@@ -80,6 +80,10 @@ $max-content-width: {{ site.max_width }};
             font-size: 1.8rem;
             line-height: 1em;
             color: white;
+
+            a, a:hover, a:focus {
+                color: white;
+            }
         }
     }
 }

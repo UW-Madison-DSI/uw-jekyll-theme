@@ -1141,6 +1141,9 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   line-height: 1em;
   color: white;
 }
+.uw-hero .uw-hero-inset-wrapper .uw-hero-headline a, .uw-hero .uw-hero-inset-wrapper .uw-hero-headline a:hover, .uw-hero .uw-hero-inset-wrapper .uw-hero-headline a:focus {
+  color: white;
+}
 
 label i {
   margin-right: 5px;
