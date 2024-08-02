@@ -12,6 +12,13 @@ This is a website for the University of Wisconsin's Open Source Program Office:
 <img src="images/screen-shots/home.png" align="center" style="border:2px solid grey">
 <div align="center">OSPO Web Site</div>
 
+## Dependencies
+
+This website is built upon following tools and frameworks:
+
+- [Al-Folio](https://github.com/alshedivat/al-folio)
+- [Jekyll](https://jekyllrb.com)
+
 ## Running
 
 Simply run the following command to start the Jekyll app:
@@ -22,7 +29,7 @@ sh run.sh
 
 The application will be visible at the following url:
 ```
-http://127.0.0.1:4000
+http://127.0.0.1:4000/ospo.wisc.edu
 ```
 
 <!-- LICENSE -->
@@ -30,10 +37,7 @@ http://127.0.0.1:4000
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
-## Contact
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgments
 
-- Kyle Cranmer - (mailto:kscranmer@wisc.edu)
-- Finn Kuusisto - (mailto:finn.kuusisto@wisc.edu)
-- Cris Carusi - (mailto:cecarusi@wisc.edu)
-- Abe Megahed - (mailto:amegahed@wisc.edu)
+This website was made possible by the [Open Source Program Office](https://ospo.wisc.edu) at the UW-Madison [Data Science Institute](https://dsi.wisc.edu).
