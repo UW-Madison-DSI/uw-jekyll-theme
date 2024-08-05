@@ -5,14 +5,18 @@ left-column:
       url: https://datascience.wisc.edu/institute/
     - text: Data Science Hub
       url: https://datascience.wisc.edu/hub/
-    - text: School of Computer, Data & Information Sciences
-      url: https://cdis.wisc.edu/
+    - text: UW-Madison Libraries
+      url: https://www.library.wisc.edu/
+    - text: CURIOSS
+      url: https://curioss.org/
+    - text: NumFocus
+      url: https://numfocus.org/
 
 center-column: 
   title: Quick links
   entries:
-    - text: Coding Meetup
-      url: https://datascience.wisc.edu/hub/#dropin
+    - text: Join Our OSPO Google Group
+      url: https://github.com/UW-Madison-DSI/ospo.wisc.edu-uw-jekyll-theme/issues/ospo@g-groups.wisc.edu
     - text: Data Science Research Bazaar
       url: https://datascience.wisc.edu/data-science-research-bazaar/
     - text: Data Science @ UW Newsletter
