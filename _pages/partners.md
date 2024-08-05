@@ -70,7 +70,7 @@ permalink: /partners
 				<li>
 					<img src="images/partners/numfocus-logo-resized.png" alt="NumFOCUS logo">
 					<h2 class="uw-mini-bar"><a style="text-decoration: none;" href="https://numfocus.org/" target="_blank">NumFOCUS</a></h2>
-					<p>NumFOCUS promotes open practices in research, data, and scientific computing. We are working with Matthew Feikert, a NumFOCUS organizer and key member of the NumFOCUS community. </p>
+					<p>NumFOCUS promotes open practices in research, data, and scientific computing. We are working with Matthew Feickert, DSI researcher and developer of a NumFOCUS Affiliated Project. </p>
 				</li>
 			</div>
 
