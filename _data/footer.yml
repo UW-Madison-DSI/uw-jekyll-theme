@@ -16,7 +16,7 @@ center-column:
   title: Quick links
   entries:
     - text: Join Our OSPO Google Group
-      url: https://github.com/UW-Madison-DSI/ospo.wisc.edu-uw-jekyll-theme/issues/ospo@g-groups.wisc.edu
+      url: https://groups.google.com/u/1/a/g-groups.wisc.edu/g/ospo
     - text: Data Science Research Bazaar
       url: https://datascience.wisc.edu/data-science-research-bazaar/
     - text: Data Science @ UW Newsletter
