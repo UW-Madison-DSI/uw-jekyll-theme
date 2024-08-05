@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: http://localhost:4000/ospo.wisc.edu-uw-jekyll-theme/sitemap.xml
