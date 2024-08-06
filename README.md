@@ -31,7 +31,7 @@ sh run.sh
 
 The application will be visible at the following url:
 ```
-http://127.0.0.1:4000/ospo.wisc.edu-uw-jekyll-theme
+http://127.0.0.1:4000
 ```
 
 ### `pixi`
@@ -52,7 +52,7 @@ First install the local Ruby `bundle`
 pixi run install
 ```
 
-and then run any defined task with `pixi run` such as building and serving the website at `http://127.0.0.1:4000/ospo.wisc.edu-uw-jekyll-theme/`
+and then run any defined task with `pixi run`, such as building and serving the website at `http://127.0.0.1:4000`
 
 ```
 pixi run serve

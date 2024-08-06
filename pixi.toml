@@ -1,5 +1,5 @@
 [project]
-name = "ospo.wisc.edu-uw-jekyll-theme"
+name = "ospo.wisc.edu"
 version = "0.1.0"
 description = "Website for the University of Wisconsin's Open Source Program Office"
 authors = ["Matthew Feickert <matthew.feickert@wisc.edu>"]
