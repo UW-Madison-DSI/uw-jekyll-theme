@@ -11,3 +11,6 @@ _posts
 .jupyter/
 Gemfile.lock
 vendor
+# pixi environments
+.pixi
+*.egg-info
