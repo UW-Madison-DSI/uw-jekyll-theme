@@ -10,3 +10,6 @@ _site
 .jupyter/
 Gemfile.lock
 vendor
+# pixi environments
+.pixi
+*.egg-info
