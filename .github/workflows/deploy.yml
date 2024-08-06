@@ -3,10 +3,10 @@ name: Deploy website to GitHub pages
 on:
   push:
     branches:
-    - master
+    - main
   pull_request:
     branches:
-    - master
+    - main
   workflow_dispatch:
 
 permissions:
@@ -67,7 +67,7 @@ jobs:
   # Deployment job
   deploy:
     name: Deploy site to GitHub Pages
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
