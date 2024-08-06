@@ -2,7 +2,7 @@
 	<div class="uw-main-nav">
 
 		<nav class="uw-nav-menu uw-nav-menu-reverse" aria-label="Main Menu">
-			<ul id="uw-main-nav" class="nav-links" style="max-width:80em;">
+			<ul id="uw-main-nav" class="nav-links">
 				{% for item in site.data.navigation %}
 				{% assign url = page.url %}
 				{% assign link = item.link | replace: ".html", "" %}

@@ -28,13 +28,21 @@ body.sticky-bottom-footer {
 }
 
 .container, .uw-header-container {
-  max-width: $max-content-width !important;
+  max-width: 100%;
   padding: 0 50px;
 
   .carousel, .uw-hero {
     margin: 0 -50px;
     max-width: calc(100% + 100px);
   }
+}
+
+.uw-header-container {
+  max-width: $max-content-width !important;
+}
+
+#uw-top-menus.uw-horizontal .uw-nav-menu ul {
+  max-width: $max-content-width !important;
 }
 
 // mobile / small styles
