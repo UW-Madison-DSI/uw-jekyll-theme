@@ -74,7 +74,7 @@ permalink: /partners
 				</li>
 			</div>
 
-			<div class="col-sm-12 col-md-4">
+			<div class="col-sm-12 col-md-4" style="display:none">
 				<li>
 					<img src="images/partners/lightning-ai-logo-resized.png" alt="LightningAI logo">
 					<h2 class="uw-mini-bar"><a style="text-decoration: none;" href="https://lightning.ai/" target="_blank">Lightning AI</a></h2>
