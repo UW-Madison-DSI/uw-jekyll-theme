@@ -30,11 +30,6 @@ body.sticky-bottom-footer {
 .container, .uw-header-container {
   max-width: 100%;
   padding: 0 50px;
-
-  .carousel, .uw-hero {
-    margin: 0 -50px;
-    max-width: calc(unquote("100% + 100px"));
-  }
 }
 
 .uw-header-container {
@@ -51,11 +46,6 @@ body.sticky-bottom-footer {
   .container, .uw-header-container {
     max-width: $max-content-width !important;
     padding: 0 20px;
-
-    .carousel, .uw-hero {
-      margin: 0 -20px;
-      max-width: calc(unquote("100% + 40px"));
-    }
   }
 }
 
