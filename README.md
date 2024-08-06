@@ -21,7 +21,9 @@ This website is built upon following tools and frameworks:
 
 ## Running
 
-Simply run the following command to start the Jekyll app:
+### `rbenv` Ruby environment
+
+If you have a `rbenv` environment setup already, you can build and run the website as a Jekyll app with
 
 ```
 sh run.sh
@@ -29,7 +31,31 @@ sh run.sh
 
 The application will be visible at the following url:
 ```
-http://127.0.0.1:4000/ospo.wisc.edu
+http://127.0.0.1:4000/ospo.wisc.edu-uw-jekyll-theme
+```
+
+### `pixi`
+
+Even easier is to use the included `pixi` project.
+
+[Install `pixi`](https://pixi.sh/latest/#installation) and then (optionally) from the top level of the repository run
+
+```
+pixi install
+```
+
+Then use the `pixi` task runner to execute the tasks defined in `pixi.toml`.
+
+First install the local Ruby `bundle`
+
+```
+pixi run install
+```
+
+and then run any defined task with `pixi run` such as building and serving the website at `http://127.0.0.1:4000/ospo.wisc.edu-uw-jekyll-theme/`
+
+```
+pixi run serve
 ```
 
 <!-- LICENSE -->
