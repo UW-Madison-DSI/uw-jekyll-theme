@@ -6,7 +6,7 @@ services:
     container_name: al-folio-website
     platform: linux/amd64/v8
     command: bash -c "
-      rm -f Gemfile.lock 
+      rm -f Gemfile.lock
       && jekyll --version
       && bundler exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"
     ports:

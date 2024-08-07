@@ -1,4 +1,4 @@
-/* 
+/*
  * classList.js: Cross-browser full element.classList implementation.
  * 2014-07-23
  *

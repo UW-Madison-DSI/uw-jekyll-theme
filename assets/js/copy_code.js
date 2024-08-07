@@ -32,7 +32,7 @@ codeBlocks.forEach(function (codeBlock) {
         copyButton.innerHTML = '<i class="fas fa-clipboard"></i>';
       }, waitFor);
     });
-    
+
     // create wrapper div
     var wrapper = document.createElement('div');
     wrapper.className = 'code-display-wrapper';
