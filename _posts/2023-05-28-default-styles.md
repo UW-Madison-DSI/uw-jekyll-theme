@@ -2,7 +2,7 @@
 layout: post
 title: a post with default UW template styles
 date: 2024-05-28 13:53:00-0400
-description: an example of defaut UW template styles
+description: an example of default UW template styles
 categories: sample-posts, formatting
 giscus_comments: true
 related_posts: true
@@ -22,10 +22,10 @@ This post shows show the default styles from the UW template. Based on the [UW T
 
 <p class="uw-pad-t-l">
 
-              The 
+              The
     <i>uw-no-case-transform</i>
      CSS class can be used to remove the all-caps style from headers:
-            
+
 </p>
 
 <h2 class="uw-mini-bar">Paragraphs</h2>
@@ -35,18 +35,18 @@ This post shows show the default styles from the UW template. Based on the [UW T
         </p>
 <p>
 
-              This paragraph shows 
+              This paragraph shows
     <strong>strong</strong>
-     or 
+     or
     <b>bolded</b>
-    , 
+    ,
     <em>emphasized</em>
-     or 
+     or
     <i>italicized</i>
-     and 
+     and
     <a href="1">linked text</a>
     .
-            
+
 </p>
 
 <h2 class="uw-mini-bar">Lists</h2>
@@ -82,7 +82,7 @@ This post shows show the default styles from the UW template. Based on the [UW T
 <blockquote>
 
               “Whatever may be the limitations which trammel inquiry elsewhere, we believe that the great state University of Wisconsin should ever encourage that continual and fearless sifting and winnowing by which alone the truth can be found.”
-              
+
     <cite>The Board of Regents, 1894</cite>
 </blockquote>
 
@@ -91,7 +91,7 @@ This post shows show the default styles from the UW template. Based on the [UW T
 <blockquote class="uw-stylized-quote">
 
               “Whatever may be the limitations which trammel inquiry elsewhere, we believe that the great state University of Wisconsin should ever encourage that continual and fearless sifting and winnowing by which alone the truth can be found.”
-              
+
     <cite>The Board of Regents, 1894</cite>
 </blockquote>
 
