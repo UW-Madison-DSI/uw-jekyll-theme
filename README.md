@@ -19,7 +19,7 @@ The UW Jeckyll Template is intended to support the development of websites for t
 - department
 - lab
 - researcher or person
-- organization 
+- organization
 
 ## Features
 
@@ -32,26 +32,62 @@ The UW Jeckyll Template has built-in support for the following capabilities:
 - CV
 - teaching, description of course materials
 
-## Running
+## Local development
 
-Simply run the following command to start the Jekyll app:
+### `pixi`
 
-#### Local Setup (Standard)
+The easiest cross-platform method for local development is to use [`pixi`](https://pixi.sh/), as it provides a fully reproducible environment with all the required dependencies and build tools.
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system:
+[Install `pixi`](https://pixi.sh/latest/#installation) and then (optionally) from the top level of the repository run
 
-```bash
-sh run.sh
+```
+pixi install
 ```
 
-The application will be visible at the following url:
+Then use the `pixi` task runner to execute the tasks defined in `pixi.toml`.
+First install the local Ruby "bundle"
+
 ```
-http://127.0.0.1:4000/uw-jekyll-theme/
+pixi run install
 ```
 
-#### Local Setup (Using Docker)
+and then run any defined task with `pixi run`, such as building and serving the website at `http://127.0.0.1:4000/uw-jekyll-theme/`
 
-If you are running on Windows, we recommend that you run this application using Docker, which can be peformed as follows:
+```
+pixi run serve
+```
+
+You can see all the defined tasks in this project by running
+
+```
+pixi info
+```
+
+#### `rbenv`
+
+Assuming you already have [Ruby](https://www.ruby-lang.org/en/downloads/) installed on your system, preferably with [`rbenv`](https://github.com/rbenv/rbenv), you can alternatively do local development by installing `bundler`
+
+```
+gem install bundle
+```
+
+then setting up local Ruby "bundle"
+
+```
+bundle install
+```
+
+and then build and serve the website at `http://127.0.0.1:4000/uw-jekyll-theme/` with
+
+```
+bundle exec rake serve
+```
+
+**Note:** If you use this development method, dependencies installed in the bundle will have external dependencies, like ImageMagick, that you will need to install yourself.
+
+#### Docker
+
+If you are running on Windows, we recommend that you run this application using Docker, which can be performed as follows:
 
 - First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 - Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
