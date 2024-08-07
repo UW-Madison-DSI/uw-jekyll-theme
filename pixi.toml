@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Website for the University of Wisconsin's Open Source Program Office"
 authors = ["Matthew Feickert <matthew.feickert@wisc.edu>"]
 channels = ["conda-forge"]
-platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+platforms = ["linux-64", "osx-64", "osx-arm64"]
 
 [tasks]
 # Need to use '--user-install' as using pixi instead of rbenv
@@ -19,8 +19,11 @@ build = "bundle exec rake build"
 
 serve = "bundle exec rake serve"
 
+clean = "bundle exec rake clean"
+
 clobber = "bundle exec rake clobber"
 
 [dependencies]
 ruby = ">=3.3.3,<4"
 compilers = ">=1.7.0,<2"
+imagemagick = ">=7.1.1_36,<8"
