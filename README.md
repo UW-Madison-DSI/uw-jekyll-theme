@@ -14,7 +14,7 @@ This is a [Jekyll](https://jekyllrb.com) based website that is based upon the [A
 
 ## Applications
 
-The UW Jekyll Template is intended to support the development of websites for the the following types of University of Wisconsin people and organizations:
+The UW Jekyll Template is intended to support the development of websites for the following types of University of Wisconsin people and organizations:
 
 - department
 - lab
