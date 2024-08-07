@@ -267,7 +267,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['Announcements', '2024'] # these tags will be displayed on the front page of your blog
+display_tags: ['Announcements', '2023', '2024'] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
