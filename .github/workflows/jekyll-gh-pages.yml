@@ -1,11 +1,12 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy website to GitHub pages
 
 on:
   push:
     branches:
-    - master
+      - master
   pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
