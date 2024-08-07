@@ -36,7 +36,7 @@ The UW Jeckyll Template has built-in support for the following capabilities:
 
 ### `pixi`
 
-Perhaps the easiest cross-platform method for local development is to use [`pixi`](https://pixi.sh/), as it provides a fully reproducible environment with all the required dependencies and build tools.
+The easiest cross-platform method for local development is to use [`pixi`](https://pixi.sh/), as it provides a fully reproducible environment with all the required dependencies and build tools.
 
 [Install `pixi`](https://pixi.sh/latest/#installation) and then (optionally) from the top level of the repository run
 
@@ -65,16 +65,25 @@ pixi info
 
 #### `rbenv`
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system:
+Assuming you already have [Ruby](https://www.ruby-lang.org/en/downloads/) installed on your system, preferably with [`rbenv`](https://github.com/rbenv/rbenv), you can alternatively do local development by installing `bundler`
 
-```console
-sh run.sh
+```
+gem install bundle
 ```
 
-The application will be visible at the following url:
+then setting up local Ruby "bundle"
+
 ```
-http://127.0.0.1:4000/uw-jekyll-theme/
+bundle install
 ```
+
+and then build and serve the website at `http://127.0.0.1:4000/uw-jekyll-theme/` with
+
+```
+bundle exec rake serve
+```
+
+**Note:** If you use this development method, dependencies installed in the bundle will have external dependencies, like ImageMagick, that you will need to install yourself.
 
 #### Docker
 
