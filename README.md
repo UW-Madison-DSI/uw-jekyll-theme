@@ -32,6 +32,16 @@ The UW Jekyll Template has built-in support for the following capabilities:
 - CV
 - teaching, description of course materials
 
+## Minimal required changes for website deployment
+
+If you are starting with this repository as a template for your own project the following steps are required to have it be deployed as a GitHub Pages website.
+
+1. In the GitHub Pages settings for your repository (`https://github.com/<your GitHub org>/<your GitHub repository name>/settings/pages`) under "Build and deployment" select "GitHub Actions" from the Source drop down menu.
+   - [Relevant GitHub documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
+2. Find all instances of "uw-jekyll-theme" in the repository (e.g. `git grep "uw-jekyll-theme"`) and replace them with your repository name.
+Add and commit these changes to your repository and push them to your remote on GitHub.
+   * The only file that is **required** to be updated is `_config.yml`, but updating all files with the new repository name helps to avoid confusion later.
+
 ## Local development
 
 ### `pixi`
