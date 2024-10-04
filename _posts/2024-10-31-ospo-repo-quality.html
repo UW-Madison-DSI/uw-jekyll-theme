@@ -1,0 +1,80 @@
+---
+layout: default
+title: "A Look Into GitHub / GitLab Repository Quality Metrics"
+date:  2024-10-04 00:00:00 -0600
+categories: Blog 2024
+thumbnail: images/posts/2024-10-31-repo-quality/GitHub Features.png
+---
+<h1 class="uw-mini-bar">A Look Into GitHub / GitLab Repository Quality Metrics</h1>
+
+<caption>Abe Megahed, University of Wisconsin Data Science Institute</caption>
+
+<h2>Summary</h2>
+<p>As part of the University of Wisconsin Madison’s Open Source Program Office’s investigation into open source activities around the state, we collected and analyzed a set of information from GitHub and GitLab that yields some insights into the general state of code and repository quality. </p>
+
+<h2>Methodology</h2>
+<p>The UW OSPO opened in the fall of 2023 and one of our first tasks was to try to understand the current state of open source activity at the University of Wisconsin and around the state (in accordance with the <a href="https://www.wisc.edu/wisconsin-idea/" target="_blank">Wisconsin Idea</a>).  To aid in this task, we built a set scripts to utilize the GitHub and GitLab APIs to download and compile metadata about relevant repositories.  </p>
+
+<ul>
+	<li>
+		<p>For the GitHub repositories, we simply looked for repositories that contained the term “Wisconsin” somewhere in the description.  This yielded 3033 repositories to examine.  </p>
+	</li>
+	<li>
+		<p>For GitLab projects, the University of Wisconsin hosts its own GitLab instance which students and staff are encouraged to use and so we were able to examine all of the projects in this database.  This yielded 2579 projects.  </p>
+	</li>
+</ul>
+
+<p>The code and findings from this investigation are available at the following url: <a href="https://github.com/UW-Madison-DSI/UW-Open-Source-Exploration" target="_blank">https://github.com/UW-Madison-DSI/UW-Open-Source-Exploration</a></p>
+
+<h2>Findings</h2>
+
+<p>The most important thing to note in the data was actually what was missing from most repositories.  These results are summarized in the following charts: <a href="https://projects.dsi.wisc.edu/amegahed/open-source" target="_blank">https://projects.dsi.wisc.edu/amegahed/open-source</a></p>
+
+<p>We found the following: </p>
+<ul>
+	<li>Only 72% of repositories had a README file.</li>
+	<li>Only 14% of repositories had a LICENSE file.</li>
+	<li>Only 5% of repositories had a homepage.  More serious projects have a homepage dedicated to actual users of the software rather than just developers.</li>
+	<li>Only 8% of repositories a README containing images.  While some form of graphics or illustrations are not technically required of READMEs, they are a fairly reliable indicator of whether or not the authors have considered the needs of the audience. </li>
+	<li>80% of repositories have a basic description.</li>
+	<li>Only 0.5% of repositories contain all of these essential elements!</li>
+</ul>
+
+<img src="{{ site.baseurl }}/images/posts/2024-10-31-repo-quality/GitHub Features.png" alt="GitHub Features Chart" />
+<label style="text-align:center">Prevalance of GitHub Repository Features</label>
+<img src="{{ site.baseurl }}/images/posts/2024-10-31-repo-quality/GitHub Features.png" alt="GitLab Features Chart" />
+<label style="text-align:center">Prevalance of GitLab Project Features</label>
+
+<h2>Proposed Remediations</h2>
+
+<p>We have been considering a number of possible ways that we can address the code quality problem and ways that we can help people to create better repositories.</p>
+
+<ol>
+	<li>
+		<h3>Educational Materials</h3>
+		<p>We can create a set of instructional materials that would describe the importance of each of the repository elements and serve as a guide for building quality repositories.</p>
+	</li>
+
+	<li>
+		<h3>Curated Examples</h3>
+		<p>Sometimes people learn best by example so the OSPO is working to build a curated set of showcase repositories that can demonstrate what a high quality and complete repository looks like in practice.</p>
+	</li>
+
+	<li>
+		<h3>Templates</h3>
+		<p>There are a number of examples of README templates, but there are differences of opinion on the essential elements and preferred formatting.  We could create our own OSPO README template that reflects our own thoughts and experience. </p>
+	</li>
+
+	<li>
+		<h3>Classes or Workshops</h3>
+		<p>The OSPO could potentially hold classes or workshops in repository creation. The University of Wisconsin’s Data Science Hub also conducts classes on how to use Git which could potentially include a section about repository quality.</p>
+	</li>
+
+	<li>
+		<h3>Automated Repository Evaluation Tools</h3>
+		<p>We could potentially create an automated evaluation tool that would examine a particular repository and make suggestions for improvement.  This might also be an opportunity to explore using AI tools to parse the README text to help with the process of creating meaningful automated suggestions. </p>
+	</li>
+</ol>
+
+<h2>Conclusions</h2>
+<p>Given the fact that so many repositories are lacking in the most basic and fundamental elements, the UW Open Source Program Office has an opportunity to make a significant difference in the code quality of current repositories. </p>
