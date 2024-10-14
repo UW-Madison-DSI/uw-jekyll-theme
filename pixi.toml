@@ -23,6 +23,8 @@ clean = "bundle exec rake clean"
 
 clobber = "bundle exec rake clobber"
 
+start = { depends-on = ["install", "serve"] }
+
 [dependencies]
 ruby = ">=3.3.3,<4"
 compilers = ">=1.7.0,<2"

@@ -58,6 +58,14 @@ and then run any defined task with `pixi run`, such as building and serving the 
 pixi run serve
 ```
 
+The canonical
+
+```
+pixi run start
+```
+
+runs the `install` and `serve` tasks.
+
 <!-- LICENSE -->
 ## License
 
