@@ -1,10 +1,10 @@
 ---
-title: Activities | Open Source Program Office
+title: Roadmap | Open Source Program Office
 layout: default
-permalink: /activities
+permalink: /activities/roadmap
 ---
 
-<h1 class="page-title uw-mini-bar">Activities</h1>
+<h1 class="page-title uw-mini-bar">Roadmap</h1>
 <p class="page-description">Led by the director of the Data Science Institute and the OSPO Program Manager, the OSPO will engage in a variety of activities for the benefit of our community, including:</p>
 
 ## Open Source Facilitation

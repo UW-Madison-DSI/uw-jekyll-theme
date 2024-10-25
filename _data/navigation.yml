@@ -1,14 +1,38 @@
-- name: Team
-  link: /team.html
-
-- name: Partners
-  link: /partners.html
+- name: About
+  menu:
+    - name: Team
+      link: /about/team
+    - name: Partners
+      link: /about/partners
 
 - name: Activities
-  link: /activities.html
+  menu:
+    - name: Roadmap
+      link: /activities/roadmap
+    - name: Internship Program
+      link: /activities/internships
+    - name: Events
+      link: /activities/events
+    - name: Work With Us
+      link: /activities/work-with-us
 
-- name: Projects
-  link: /projects.html
+- name: Community
+  menu:
+    - name: Faces of Open Source
+      link: /community/faces
+    - name: OSPO Index
+      link: /community/index.html
+    - name: Community Projects
+      link: /community/projects.html
+
+- name: Resources
+  menu:
+    - name: Community Survey
+      link: /blog/2024/ospo-survey/
+    - name: OSPO Playbooks
+      link: /resources/playbooks.html
+    - name: Education
+      link: /resources/education.html
 
 - name: News
   link: /blog
