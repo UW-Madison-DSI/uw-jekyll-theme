@@ -11,11 +11,11 @@ permalink: /community/profiles
 <div class="person-profile">
 	{% if profile.headshot %}
 	<div class="icon">
-		<div class="headshot" style="background-image:url(../images/profiles/{{ profile.headshot }})" />
+		<div class="headshot" style="background-image:url(../images/profiles/{{ profile.headshot }})"></div>
 		<h3>{{ profile.name }} </h3>
 	</div>
 	{% endif %}
 	<h2>{{ profile.headline }} </h2>
 	<p>{{ profile.content | markdownify }}</p>
-	{% endfor %}
 </div>
+{% endfor %}

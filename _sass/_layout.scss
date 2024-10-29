@@ -64,7 +64,6 @@ body.sticky-bottom-footer {
 
 .person-profile {
 	.icon {
-		float: left;
 		margin: 50px;
 
 		.headshot {
@@ -77,6 +76,17 @@ body.sticky-bottom-footer {
 
 		h3 {
 			text-align: center;
+		}
+	}
+
+	&:nth-of-type(even) {
+		.icon {
+			float: right;
+		}
+	}
+	&:nth-of-type(odd) {
+		.icon {
+			float: left;
 		}
 	}
 }
