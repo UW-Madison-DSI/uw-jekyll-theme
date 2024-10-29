@@ -178,6 +178,7 @@ collections:
     permalink: /projects/:path/
 collections:
   - profiles
+  - team
 
 announcements:
   enabled: true
