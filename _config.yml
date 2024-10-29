@@ -180,6 +180,7 @@ collections:
   - profiles
   - team
   - partners
+  - projects
 
 announcements:
   enabled: true
@@ -216,6 +217,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - _partners/ignore/
+  - _projects/ignore/
 keep_files:
   - CNAME
   - .nojekyll
