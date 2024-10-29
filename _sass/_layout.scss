@@ -64,29 +64,40 @@ body.sticky-bottom-footer {
 
 .person-profile {
 	.icon {
-		margin: 50px;
+		text-align: center;
 
 		.headshot {
-			width: 300px;
-			height: 300px;
+			width: 250px;
+			height: 250px;
 			border-radius: 50%;
 			background-size: cover;
 			background-position: center;	
+			margin: auto;
 		}
 
 		h3 {
 			text-align: center;
 		}
 	}
+}
 
-	&:nth-of-type(even) {
+@media (min-width: 800px) {
+	.person-profile {
 		.icon {
-			float: right;
+			margin: 50px;
 		}
-	}
-	&:nth-of-type(odd) {
-		.icon {
-			float: left;
+
+		// alternate profile images left to right
+		//
+		&:nth-of-type(even) {
+			.icon {
+				float: right;
+			}
+		}
+		&:nth-of-type(odd) {
+			.icon {
+				float: left;
+			}
 		}
 	}
 }
