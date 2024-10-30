@@ -68,11 +68,11 @@ body.sticky-bottom-footer {
 	.icon {
 		display: inline-block;
 		text-align: center;
-		margin: 50px;
 
 		.headshot {
-			width: 250px;
-			height: 250px;
+			width: 75%;
+			max-width: 250px;
+			aspect-ratio: 1;
 			border-radius: 50%;
 			background-size: cover;
 			background-position: center;	
