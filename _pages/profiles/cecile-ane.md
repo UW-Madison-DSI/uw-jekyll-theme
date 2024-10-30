@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Cécile Ane
+fullname: Cécile Ane
 headline: From coding on paper to a computer - How Cécile Ane educates the community in open source 
 headshot: cecile-ane.png
+permalink: /community/profiles/cecile-ane
 --- 
 
 A young girl without a computer of her own, begged her grandma to buy her a book on coding. She had hopes of learning how to code, even if it had to be on paper. Today, that girl is Cécile Ane, an eminent professor at the University of Wisconsin-Madison in the Botany and Statistics departments. Her research currently focuses on developing statistical methods for evolutionary biology.

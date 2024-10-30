@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Irwin Goldman
+fullname: Irwin Goldman
 headline: Free the seed! Irwin Goldman and OSSI work towards open-source seeds
 headshot: irwin-goldman.jpg
+permalink: /community/profiles/irwin-goldman
 --- 
 
 Open source can grow across many different areas. From computers to the environment, Irwin Goldman utilizes open source ideas to promote a freer farm. A professor at the University of Wisconsin-Madison in the Department of Plant and Agroecosystem Sciences, Goldman’s research currently focuses on plant breeding. He is also an associate dean for the College of Agricultural Life Sciences. 

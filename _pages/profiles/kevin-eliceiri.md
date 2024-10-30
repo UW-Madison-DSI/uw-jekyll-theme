@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Kevin Eliceiri
+fullname: Kevin Eliceiri
 headline: Building a foundation for open-source software and hardware with Kevin Eliceiri
 headshot: kevin-eliceiri.jpg
+permalink: /community/profiles/kevin-eliceiri
 --- 
 
 Kevin Eliceiri, a professor at the University of Wisconsin-Madison in the Department of Biomedical Engineering and the Department of Medical Physics, is helping advance efforts in implementing open-source tools for medical research. With his research focusing on understanding cellular roles in disease and how to quantitate them, Eliceiri is a strong advocate for utilizing preexisting open-source tools to avoid continual reinvention, especially hardware. Alongside this, he is a director for the UW-Madison Center for Quantum Cell Imaging of the Morgridge Institute’s FabLab. 

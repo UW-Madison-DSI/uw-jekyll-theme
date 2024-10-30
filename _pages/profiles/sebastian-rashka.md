@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Sebastian Raschka
+fullname: Sebastian Raschka
 headline: Empowering coders - How Sebastian Raschka guides open source education 
 headshot: sebastian-raschka.jpg
+permalink: /community/profiles/sebastian-rashka
 --- 
 
 Learning to code can be daunting for some, especially when learning how to start codes in open source. Sebastian Raschka, a former assistant professor in the Department of Statistics at the University of Wisconsin-Madison, is continuously teaching others how to start their very own open-source projects. Currently a staff research engineer at Lightning AI, his work focuses on implementing new large language models and training them. He sits on the advisory board for the University of Wisconsin-Madison’s Open Source Program Office (OSPO).

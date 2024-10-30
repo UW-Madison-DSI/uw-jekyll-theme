@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Claudia Solís-Lemus
+fullname: Claudia Solís-Lemus
 headline: How clean documentation and organization for open-source projects is essential with Claudia Solís-Lemus
 headshot: claudia-solis-lemus.jpg
+permalink: /community/profiles/claudia-solis-lemus
 --- 
 
 Claudia Solís-Lemus, a statistician by practice and an assistant professor at the University of Wisconsin-Madison in the Department of Plant Pathology, develops software as part of her research group when she is not busy swimming across Devils Lake in Wisconsin. The software created is all open source in hopes to help benefit the scientific community in any regard. 

@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Douglas Bates
+fullname: Douglas Bates
 headline: Meet Douglas Bates - How a UW-Madison professor helped shape R and continues to advocate for open-source technology
 headshot: doug-bates.jpg
+permalink: /community/profiles/doug-bates
 --- 
 
 New programming languages are constantly being developed, helping aid and furthering research all around the world. One of the more prominent coding languages R was developed by one of University of Wisconsin-Madison’s own. Douglas Bates is an emeritus professor in the Department of Statistics, his research mainly focuses on statistical computing. Twelve years after retiring, he continues to work with graduate students and faculty.

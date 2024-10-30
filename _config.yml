@@ -216,6 +216,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _team/ignore/
   - _partners/ignore/
   - _projects/ignore/
 keep_files:

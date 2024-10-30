@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Perry Govier
+fullname: Perry Govier
 headline: From band websites to teaching code, Perry Govier embraces open-source software
 headshot: perry-govier.jpg
+permalink: /community/profiles/perry-govier
 --- 
 
 Perry Govier started out on the road of programming by building websites for his friends’ bands, his dreams of being a roadie with technology solely being a hobby. Today, he is a programming instructor at the Madison Area Technical College. Govier specializes in the front end of development, his work focusing on the visual aspects of design and programming. 

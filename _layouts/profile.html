@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<div class="profile">
+<h1 class="page-title uw-mini-bar">Faces of Open Source: {{ page.fullname }}</h1>
+<br />
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    <div id="markdown-content">
-      {{ content }}
-    </div>
-  </article>
+<div class="person-profile">
+  {% if page.headshot %}
+  <div class="icon">
+    <div class="headshot" style="background-image:url(../../images/profiles/{{ page.headshot }})"></div>
+    <h3>{{ page.fullname }} </h3>
+  </div>
+  {% endif %}
+  <h2>{{ page.headline }} </h2>
+  <p>{{ page.content | markdownify }}</p>
 </div>

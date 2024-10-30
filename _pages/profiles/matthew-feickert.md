@@ -1,8 +1,9 @@
 ---
 layout: profile
-name: Matthew Feickert
+fullname: Matthew Feickert
 headline: Matthew Feickert advances particle physics research through open-source innovation
 headshot: matthew-feickert.jpg
+permalink: /community/profiles/matthew-feickert
 --- 
 
 Open-source software and particle physics go hand in hand, just ask Matthew Feickert. A postdoctoral research associate at the University of Wisconsin-Madison’s Data Science Institute and a part of the Cranmer Lab and the ATLAS collaboration, Fecikert focuses on data science applications and open-source software for particle physics. Open source has been a prominent tool in Feickert’s career so far, setting a foundation for the software he uses to pursue his research in his field.
