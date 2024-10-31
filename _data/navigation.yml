@@ -20,10 +20,7 @@
   menu:
     - name: Faces of Open Source
       link: /community/profiles
-    - name: OSPO Index
-      link: /community/index.html
-    - name: Community Projects
-      link: /community/projects.html
+     
 
 - name: Resources
   menu:
@@ -31,8 +28,7 @@
       link: /blog/2024/ospo-survey/
     - name: OSPO Playbooks
       link: /resources/playbooks.html
-    - name: Education
-      link: /resources/education.html
+
 
 - name: News
   link: /blog
