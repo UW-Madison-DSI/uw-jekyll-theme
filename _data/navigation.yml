@@ -27,9 +27,6 @@
   menu:
     - name: Community Survey
       link: /blog/2024/ospo-survey/
-    - name: OSPO Playbooks
-      link: /resources/playbooks.html
 
-
-- name: News
+- name: Blog
   link: /blog
