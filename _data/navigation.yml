@@ -20,7 +20,8 @@
   menu:
     - name: Faces of Open Source
       link: /community/profiles
-     
+    - name: Community Map
+      link: https://maps.datascience.wisc.edu/open-source
 
 - name: Resources
   menu:
